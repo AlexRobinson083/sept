@@ -17,6 +17,10 @@ $app->get('/', function() use($app) {
   return 'Hello';
 });
 
+$app->put('/', function() use($app) {
+    return 'hooray';
+});
+
 $app->run();
 
 ?>
