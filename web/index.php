@@ -18,7 +18,7 @@ $app->get('/', function() use($app) {
 });
 
 $app->put('/', function() use($app) {
-    return 'hooray';
+    return 'hooray again';
 });
 
 $app->run();
